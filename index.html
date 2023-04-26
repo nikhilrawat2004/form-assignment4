@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="simplifii head">
+        <img class="logo" src="./assets/Logo.png">
+        <div id="simplifii">Simplifii Labs</div>
+    </div>
+    
+    <div id="main">
+        <div>
+            <h1>Survey</h1>
+        </div>
+        <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+            <div class="a">
+                <fieldset class="c">
+                    <h2>Name</h2>
+                    <div class="elements">
+                        <label for="first_name">First Name: </label>
+                        <br>
+                        <input type="text" required name="first_name" placeholder="Eg. John">
+                    </div>
+                    <br>
+                    <div class="elements">
+                        <label for="last_name">Last Name: </label>
+                        <br>
+                        <input type="text" required name="last_name" placeholder="Eg. Wick">
+                    </div>
+                    <br>
+                </fieldset>
+    
+                <fieldset class="c">
+                    <h2>Address</h2>
+                    <div class="elements">
+                        <label for="street_address">Street: </label>
+                        <br>
+                        <input type="text" required name="street_address" placeholder="Eg. NH-09 Highway">
+                    </div>
+                    <br>
+                    <div class="elements">
+                        <label for="city">City: </label>
+                        <br>
+                        <input type="text" required name="city" placeholder="Eg. Ghaziabad">                    
+                    </div>
+                    <br>                            
+                    <div class="elements">
+                        <label for="state">State: </label>
+                        <br>
+                        <input type="text" required name="state" placeholder="Eg. Uttar Pradesh">                    
+                    </div>
+                    <br>
+                    <div class="elements">
+                        <label for="pincode">Pincode: </label>
+                        <br>
+                        <input type="tel" required name="pincode" pattern="[0-9]{6}" maxlength="6" placeholder="Eg. 101223">
+                    </div>
+                    <br>
+                </fieldset>
+    
+                <fieldset class="c">
+                    <h2>Contact</h2>
+                    <div class="elements">
+                        <label for="contact_number">Contact number: </label>
+                        <br>
+                        <input type="tel" required name="contact_number" pattern="[0-9]{10}" maxlength="10" placeholder="Eg. 1234-123-123">
+                        <br>
+                    </div>
+                </fieldset>
+            </div>
+            
+            <fieldset class="b">
+                <h2>Rating</h2>
+                    
+                    <div class="elements">
+                        <h3>Quality of Products:</h3>
+                        <label for="quality_of_products_received_rating" >Excellent</label>
+                        <input type="radio" required name="quality_of_products_received_rating" value="Excellent">
+    
+                        <label for="quality_of_products_received_rating" >Good</label>
+                        <input type="radio" name="quality_of_products_received_rating" value="Good">
+    
+                        <label for="quality_of_products_received_rating" >Bad</label>
+                        <input type="radio" name="quality_of_products_received_rating" value="Bad">
+                    
+                </div>
+                <br>
+                    
+                    <div class="elements">
+                        <h3>Delivery Rating:</h3>
+                        <label for="delivery_rating" >Excellent</label>
+                        <input type="radio" required name="delivery_rating" value="Excellent">
+    
+                        <label for="delivery_rating" >Good</label>
+                        <input type="radio" name="delivery_rating" value="Good">
+    
+                        <label for="delivery_rating" >Bad</label>
+                        <input type="radio" name="delivery_rating" value="Bad">
+                    </div>
+                    
+                <br>
+                
+                    
+                    <div class="elements">
+                        <h3>Value For Money:</h3>
+                        <label for="value_for_money_rating" >Excellent</label>
+                        <input type="radio" required name="value_for_money_rating" value="Excellent">
+    
+                        <label for="value_for_money_rating" >Good</label>
+                        <input type="radio" name="value_for_money_rating" value="Good">
+    
+                        <label for="value_for_money_rating" >Bad</label>
+                        <input type="radio" name="value_for_money_rating" value="Bad">
+                    </div>
+                <br>
+            </fieldset>
+
+            <div class="elements">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

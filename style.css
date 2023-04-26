@@ -1,0 +1,178 @@
+body{
+    background-color: #917FB3;
+    color:#2A2F4F;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+h1{
+    
+    color: #FDE2F3;
+}
+
+fieldset{
+    border-radius: 15px;
+    border: 0;
+    background-color: #FDE2F3;
+    width: 20vh;
+    margin: 4px;
+}
+
+#main{
+    border:10px;
+    border-radius: 20px;
+    background-color: #5d4682;
+    width: 85vh
+}
+
+button{
+    font-family: sans-serif;
+    color: #2A2F4F;
+    background-color: #E5BEEC;
+    cursor: pointer;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: #2A2F4F;
+    padding: 5px 15px 5px 15px;
+}
+
+button:hover{
+    color: #E5BEEC;
+    background-color: #2A2F4F;
+    border-style:solid;
+    border-color: #E5BEEC;
+}
+
+input{
+    background-color: #E5BEEC;
+    border-color: #2A2F4F;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    width: 20px;
+}
+
+@media(max-width:320px){
+    
+    #main{
+        background-color: #362854;
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        padding: 10px;
+    }
+    .simplifii head{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        height:70px;
+        width: 70px;
+    }
+    #simplifii{
+        font-size: 100%;
+        font-family: "candara";
+    }
+    fieldset{
+        border-radius: 15px;
+        border: 0;
+        background-color: #FDE2F3;
+        width: 150px;
+        margin: 4px;
+    }
+    input{
+        width: 80px;
+        height:10px;
+    }
+    .b{
+        width:150px;
+    }
+    
+
+}
+
+@media(min-width:321px) and (max-width:767px){
+    #main{
+        background-color: #362854;
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        padding: 10px;
+    }
+    .simplifii head{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        height:100px;
+        width: 100px;
+    }
+    #simplifii{
+        font-size: 100%;
+        font-family: "candara";
+    }
+    .b{
+        width:210px;
+    }
+}
+
+@media(min-width:768px){
+
+    #main{
+        background-color: #2A2F4F;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        padding: 10px;
+    }
+    input{
+        display: flex;
+        justify-content: space-between;
+    }
+    .elements{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .simplifii head{
+        display: flex;
+        flex-direction: row;
+        width:10%;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        height:145px;
+        width: 145px;
+    }
+    #simplifii{
+        font-size: 160%;
+        font-family: "candara";
+    }
+    .a{
+        display: inline-block;
+    }
+    .b{
+        display: inline;
+    }
+    .c{
+        width: 90%;
+    }
+}
